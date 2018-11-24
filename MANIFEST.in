@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tripoli *.css
+recursive-include tripoli *.csv
+recursive-include tripoli *.html
+recursive-include tripoli *.ico
+recursive-include tripoli *.js
+recursive-include tripoli *.json
+recursive-include tripoli *.md
+recursive-include tripoli *.png
+recursive-include tripoli *.py
+recursive-include tripoli *.svg
+recursive-include tripoli *.txt
+recursive-exclude tripoli *.pyc
